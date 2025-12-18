@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WISH CHECKOUT</title>
+
+    <link rel="stylesheet" href="PROJECT_2_CHECKOUT.css">
+     <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="./bootstrap/boottrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+    <!-- Offcanvas Section -->
+     <div class="offcanvas offcanvas-end" id="offcanvas">
+        <div class="offcanvas-header shadow">
+            <div class="offcanvas-title fs-2">Wish</div>
+            <button class="btn-close" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body mt-4">
+            <form action="" class="d-flex shadow" id="Search-input">
+                <input type="text" class="border-0" placeholder="Type here...">
+                <button class="btn" type="submit"><img src="./images/magnifying-glass.svg" alt="search"></button>
+            </form>
+
+            <ul class="nav d-flex flex-column mt-5 text-end">
+                <li class="nav-item"><a href="index.html" class="nav-link" id="nav-links">HOME</a></li>
+                    <li class="nav-item"><a href="PROJECT_2_CATEGORIES.html" class="nav-link" id="nav-links">CLOTHES</a></li>
+                    <li class="nav-item"><a href="PROJECT_2_CHECKOUT.html" class="nav-link" id="nav-links">ACCESSORIES</a></li>
+                    <li class="nav-item"><a href="PROJECT_2_PRODUCT.html" class="nav-link" id="nav-links">LINGERIE</a></li>
+                    <li class="nav-item"><a href="PROJECT_2_CONTACT.html" class="nav-link" id="nav-links">CONTACT</a></li>
+            </ul>
+        </div>
+     </div>
+    
+    <div class="family-container">
+
+        <!-- NAVBAR SECTION -->
+         <nav class="navbar navbar-expand-sm navbar-light" id="nav">
+            <div class="navbar-brand">
+                <a href="#" class="nav-link" id="brand-name">Wish</a>
+            </div>
+
+            <div class="d-flex justify-content-between" id="contain">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a href="index.html" class="nav-link" id="nav-link">HOME</a></li>
+                    <li class="nav-item"><a href="PROJECT_2_CATEGORIES.html" class="nav-link" id="nav-link">CLOTHES</a></li>
+                    <li class="nav-item"><a href="PROJECT_2_CHECKOUT.html" class="nav-link" id="nav-link">ACCESSORIES</a></li>
+                    <li class="nav-item"><a href="PROJECT_2_PRODUCT.html" class="nav-link" id="nav-link">LINGERIE</a></li>
+                    <li class="nav-item"><a href="PROJECT_2_CONTACT.html" class="nav-link" id="nav-link">CONTACT</a></li>
+                </ul>
+
+                <div class="pane">
+
+                    <div class="nav-img">
+                        <div class="nav-img-1 d-flex">
+                            <!-- Bag -->
+                             <a href="#" class="nav-link">
+                                <div class="nav-img-link d-flex flex-column">
+                                    <img src="./images/shopping-bag.svg" alt="bag">
+                                    <div class="badge rounded-circle" id="badge">1</div>
+                                </div>
+                             </a>
+
+                             <!--Star -->
+                             <a href="#" class="nav-link">
+                                <div class="nav-img-link  d-flex flex-column">
+                                    <img src="./images/star.svg" alt="bag">
+                                    <div class="badge rounded-circle" id="badge">0</div>
+                                </div>
+                             </a>
+                        </div>
+
+                        <div class="nav-img-2">
+                            <!-- Avatar -->
+                             <a href="#" class="nav-link">
+                                <div class="nav-img-link">
+                                    <img src="./images/avatar.svg" alt="avatar" style="margin-left: 5px;">
+                                </div>
+                             </a>
+                        </div>
+                    </div>
+
+                    <div class="nav-menu">
+                        <!-- <img src="./images/contact_info_2.png" alt="" data-bs-toggle="offcanvas" data-bs-target="#offcanvas"> --> 
+                        <i class="fa fa-bars" data-bs-target="#offcanvas" data-bs-toggle="offcanvas"></i>
+                    </div>
+                </div>
+            </div>
+         </nav>
+
+         <!-- BODY SECTION -->
+        <!-- HOME SECTION -->
+        <div class="home">
+            <div id="home-col">
+                <div class="home-container">
+                    <div class="container">
+                        <div class="home-content">
+                            <div class="home-content-title">checkout</div>
+                            <div class="home-content-subtitle d-flex">
+                                <div class="home-content-link d-flex">
+                                    <a href="index.html" class="nav-link">home</a>
+                                    /
+                                    <a href="index.html" class="nav-link">shopping cart</a>
+                                </div>
+                                /
+                                <div class="home-content-text">shopping cart</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- checkout-form -->
+         <!-- BILLINGS SECTION -->
+          <div class="checkout-form py-5">
+            <div class="container">
+                <div class="row" id="row-1">
+                    <div class="col-lg-6 p-3">
+                        <div class="billing-info">
+                            <form action="">
+                                <div class="row" id="row-2">
+                                    <div class="col-lg-6">
+                                        <input type="text" class="form-control rounded-0 my-3 p-3" id="name-input" placeholder="first name" required>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <input type="text" class="form-control rounded-0 my-3 p-3" id="name-input" placeholder="last name" required>
+                                    </div>
+                                </div>
+
+                                <input type="text" class="form-control rounded-0 my-3 p-3" placeholder="company name" required>
+                                <input type="email" class="form-control rounded-0 my-3 p-3" placeholder="E-mail" required>
+
+                                <select name="select" id="select" class="form-select my-3 p-3 rounded-0">
+                                    <option value="country">country</option>
+                                    <option value="country">country</option>
+                                    <option value="country">country</option>
+                                </select>
+
+                                <input type="text" class="form-control rounded-0 my-3 p-3" placeholder="address" required>
+                                <input type="text" class="form-control rounded-0 my-3 p-3" placeholder="town" required>
+
+                                <div class="row" id="row-2">
+                                    <div class="col-lg-6">
+                                        <input type="text" class="form-control rounded-0 my-3 p-3" id="name-input" placeholder="zipcode" required>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <input type="text" class="form-control rounded-0 my-3 p-3" id="name-input" placeholder="phone no" required>
+                                    </div>
+                                </div>
+
+                                <div class="input-text-container">
+                                    <textarea type="text" class="form-control rounded-0 " required placeholder="Leave a comment about your order" id="form-input-2"></textarea>
+                                </div>
+
+                                <div class="check-input">
+                                    <div class="checks d-flex">
+                                        <input type="checkbox" name="check" id="check-me">
+                                        <p>Create an account</p>
+                                    </div>
+
+                                    <div class="checks d-flex">
+                                        <input type="checkbox" name="check" id="check-me">
+                                        <p>Ship to a different address</p>
+                                    </div>
+                                </div>
+
+                            </form>
+                        </div>
+                        
+                    </div>
+                    <div class="col-lg-6 p-3">
+                        <div class="cart">
+                            <div class="cart-header">cart total</div>
+                            <div class="cart-list-container">
+                                <div class="list-group rounded-0">
+                                    <div class="list-group-item p-3 px-5">
+                                        <span class="d-flex justify-content-between">
+                                            <p>product</p>
+                                            <p>total</p>
+                                        </span>
+                                    </div>
+                                    <div class="list-group-item p-3 px-5">
+                                        <span class="d-flex justify-content-between">
+                                            <p>2 peice swimsuit x1</p>
+                                            <p>$60.00</p>
+                                        </span>
+                                    </div>
+                                    <div class="list-group-item p-3 px-5">
+                                        <span class="d-flex justify-content-between">
+                                            <p>subtotal</p>
+                                            <p>$135.00</p>
+                                        </span>
+                                    </div>
+                                    <div class="list-group-item p-3 px-5">
+                                        <span class="d-flex justify-content-between">
+                                            <p>shipping</p>
+                                            <p>$5.00</p>
+                                        </span>
+                                    </div>
+                                    <div class="list-group-item p-3 px-5" id="list-item-last">
+                                        <span class="d-flex justify-content-between">
+                                            <p>total</p>
+                                            <p>$200</p>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="cart-checks">
+                                <div class="cart-radio d-flex">
+                                    <input type="radio" name="cart-check" id="cark-input-radio">
+                                    <p>cash on delivery</p>
+                                </div>
+
+                                <div class="cart-radio d-flex">
+                                    <input type="radio" name="cart-check" id="cark-input-radio">
+                                    <p>paypal</p>
+                                    <img src="./images/visa.jpg" alt="" class="img-fluid">
+                                    <img src="./images/master.jpg" alt="" class="img-fluid">
+                                </div>
+                            </div>
+
+                            <button id="cart-btn" class="btn rounded-0 w-100" type="submit">
+                                place order
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- infos -->
+                <div class="row" id="row-3">
+                    <div class="col-lg-3">
+                        <div class="service-info d-flex">
+                            <img src="./images/option_1.png" alt="service image" class="service-info-img img-fluid">
+                            <div class="service-info-text ms-3 mt-1">
+                                <div class="service-title">30 days returns</div>
+                                <p class="service-status">No questions asked</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="service-info d-flex">
+                            <img src="./images/option_2.png" alt="service image" class="service-info-img img-fluid">
+                            <div class="service-info-text ms-3 mt-1">
+                                <div class="service-title">free delivery</div>
+                                <p class="service-status">On all orders</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="service-info d-flex">
+                            <img src="./images/option_3.png" alt="service image" class="service-info-img img-fluid">
+                            <div class="service-info-text ms-3 mt-1">
+                                <div class="service-title">secure payments</div>
+                                <p class="service-status">No need to worry</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="service-info d-flex">
+                            <img src="./images/option_4.png" alt="service image" class="service-info-img img-fluid">
+                            <div class="service-info-text ms-3 mt-1">
+                                <div class="service-title">24/7 support</div>
+                                <p class="service-status">just call us</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- News-subscribe -->
+        <div class="container-fluid" id="contain-2">
+            <!-- the backgroung image is in (.news) -->
+            <div class="news text-center">
+                <div class="news-inner text-center">
+                    <div class="row" id="row-10">
+                        <div class="news-text">
+                            <div class="news-text-subtitle">only the best</div>
+                            <div class="news-text-title">subscribe for a 20% discount</div>
+                        </div>
+                    </div>
+
+                    <div class="row" id="row-11">
+                        <div class="news-form-text">
+                            <form action="" class="form d-flex" id="news-form">
+                                <input type="email" name="email" id="news-form-search" class="rounded-0 fst-italic" placeholder="Enter email">
+                                <button class="btn border-0 rounded-0" type="submit" id="news-form-btn">subscribe</button>
+                            </form>
+
+                            <div class="news-text-info fst-italic text-light">
+                                Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit. Dolorem illum sed voluptas reiciendis amet sequi, sit rem voluptatum est eve
+                                niet quidem velit facere tempore! Deleniti at veniam dolores officia. Cumque!
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+
+
+        <!-- Footer section -->
+          <div class="footer text-center">
+            <div class="container-fluid" id="contain-3">
+                <div class="footer-content">
+                    <div class="row" id="row-12">
+                        <div class="col my-3" id="footer-title">wish</div>
+                    </div>
+
+                    <div class="row" id="row-13">
+                        <div class="col">
+                            <ul class="nav justify-content-center">
+                                <li class="nav-item"><a href="#" class="nav-link" id="footer-link">HOME</a></li>
+                                <li class="nav-item"><a href="PROJECT_2_CATEGORIES.html" class="nav-link" id="footer-link">CLOTHES</a></li>
+                                <li class="nav-item"><a href="PROJECT_2_CHECKOUT.html" class="nav-link" id="footer-link">ACCESSORIES</a></li>
+                                <li class="nav-item"><a href="PROJECT_2_PRODUCT.html" class="nav-link" id="footer-link">LINGERIE</a></li>
+                                <li class="nav-item"><a href="PROJECT_2_CONTACT.html" class="nav-link" id="footer-link">CONTACT</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="row" id="row-14">
+                        <div class="col">
+                            <ul class="nav justify-content-center" id="foot-img">
+                                <li class="nav-item"><a href="#" class="nav-link"  id="footer-img-link"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+                                <li class="nav-item"><a href="#" class="nav-link"  id="footer-img-link"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                <li class="nav-item"><a href="#" class="nav-link"  id="footer-img-link"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                <li class="nav-item"><a href="#" class="nav-link"  id="footer-img-link"><i class="fa fa-reddit-alien" aria-hidden="true"></i></a></li>
+                                <li class="nav-item"><a href="#" class="nav-link"  id="footer-img-link"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <div class="footer-info">
+                                <p>Copyright &copy; <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://google.com/" target="_blank">Chiagozie</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+
+          <!-- This project wws made by Eneasato Chiagozie. it is a copyright of the template at " themewagon.github.io/wish/index.html " -->
+
+          </div>
+
+    
+</body>
+</html>

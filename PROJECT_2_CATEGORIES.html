@@ -1,0 +1,928 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WISH CATEGORIES</title>
+
+    <link rel="stylesheet" href="PROJECT_2_CATEGORIES.css">
+    <!-- <link rel="stylesheet" href="../Bootstrap class/bootstrap/boottrap.min.css"> -->
+    <!-- <link rel="stylesheet" href="./plugins/font-awesome-4.7.0/css/font-awesome.min.css" type="text/css"> -->
+    <!-- <link href="./plugins/colorbox/colorbox.css" rel="stylesheet" type="text/css"> -->
+    <!-- <script src="../Bootstrap class/bootstrap/bootstrap.min.js"></script> -->
+     <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="./bootstrap/boottrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+    <!-- OFFCANVAS SECTION -->
+      <div class="offcanvas offcanvas-end" id="offcanvas">
+        <div class="offcanvas-header shadow">
+            <div class="offcanvas-title fs-2">Wish</div>
+            <button class="btn-close" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body mt-4">
+            <form action="" class="d-flex shadow" id="Search-input">
+                <input type="text" class="border-0" placeholder="Type here">
+                <button class="btn" type="submit"><img src="./images/magnifying-glass.svg" alt="search"></button>
+            </form>
+
+            <ul class="nav d-flex flex-column mt-5 text-end">
+                <li class="nav-item"><a href="index.html" class="nav-link" id="nav-links">HOME</a></li>
+                    <li class="nav-item"><a href="PROJECT_2_CATEGORIES.html" class="nav-link" id="nav-links">CLOTHES</a></li>
+                    <li class="nav-item"><a href="PROJECT_2_CHECKOUT.html" class="nav-link" id="nav-links">ACCESSORIES</a></li>
+                    <li class="nav-item"><a href="PROJECT_2_PRODUCT.html" class="nav-link" id="nav-links">LINGERIE</a></li>
+                    <li class="nav-item"><a href="PROJECT_2_CONTACT.html" class="nav-link" id="nav-links">CONTACT</a></li>
+            </ul>
+        </div>
+     </div>
+
+    <div class="family-container">
+        <!-- NAVBAR SECTION -->
+        <nav class="navbar navbar-expand-sm navbar-light" id="nav">
+            <div class="navbar-brand">
+                <a href="#" class="nav-link" id="brand-name">Wish</a>
+            </div>
+
+            <div class="d-flex justify-content-between" id="contain">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a href="index.html" class="nav-link" id="nav-link">HOME</a></li>
+                    <li class="nav-item"><a href="PROJECT_2_CATEGORIES.html" class="nav-link" id="nav-link">CLOTHES</a></li>
+                    <li class="nav-item"><a href="PROJECT_2_CHECKOUT.html" class="nav-link" id="nav-link">ACCESSORIES</a></li>
+                    <li class="nav-item"><a href="PROJECT_2_PRODUCT.html" class="nav-link" id="nav-link">LINGERIE</a></li>
+                    <li class="nav-item"><a href="PROJECT_2_CONTACT.html" class="nav-link" id="nav-link">CONTACT</a></li>
+                </ul>
+
+                <div class="pane">
+
+                    <div class="nav-img">
+                        <div class="nav-img-1 d-flex">
+                            <!-- Bag -->
+                             <a href="#" class="nav-link">
+                                <div class="nav-img-link d-flex flex-column">
+                                    <img src="./images/shopping-bag.svg" alt="bag">
+                                    <div class="badge rounded-circle" id="badge">1</div>
+                                </div>
+                             </a>
+
+                             <!--Star -->
+                             <a href="#" class="nav-link">
+                                <div class="nav-img-link  d-flex flex-column">
+                                    <img src="./images/star.svg" alt="bag">
+                                    <div class="badge rounded-circle" id="badge">0</div>
+                                </div>
+                             </a>
+                        </div>
+
+                        <div class="nav-img-2">
+                            <!-- Avatar -->
+                             <a href="#" class="nav-link">
+                                <div class="nav-img-link">
+                                    <img src="./images/avatar.svg" alt="avatar" style="margin-left: 5px;">
+                                </div>
+                             </a>
+                        </div>
+                    </div>
+
+                    <div class="nav-menu">
+                        <!-- <img src="./images/contact_info_2.png" alt="" data-bs-toggle="offcanvas" data-bs-target="#offcanvas"> -->
+                         <i class="fa fa-bars" data-bs-target="#offcanvas" data-bs-toggle="offcanvas"></i>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+         <!-- BODY SECTION -->
+         <!-- CAROUSEL SECTION -->
+
+        <div class="promo-1 mb-3">
+            <div class="carousel slide" id="promo-1" data-bs-ride="carousel">
+
+                <div class="carousel-indicators">
+                <button type="button" data-bs-target="#promo-1" data-bs-slide-to="0" class="active" id="carousel-control-btn"></button>
+                <button type="button" data-bs-target="#promo-1" data-bs-slide-to="1" id="carousel-control-btn"></button>
+                <button type="button" data-bs-target="#promo-1" data-bs-slide-to="2" id="carousel-control-btn"></button>
+                </div>
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active" id="carousel">
+                        <div class="promo-img img-fluid">
+                            <div class="container">
+                            <div class="promo-inner mt-2 d-flex flex-column">
+                                <div class="inner-up">woman</div>
+                                <div id="inner-down" class="d-flex">
+                                    <a href="index.html" class="inner-down-link nav-link">home</a>
+                                    /
+                                    <a href="PROJECT_2_CATEGORIES.css" class="inner-down-link nav-link">categories</a>
+                                    /
+                                    <a href="PROJECT_2_CONTACT.html" class="inner-down-link nav-link">contact</a>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item" id="carousel">
+                        <div class="promo-img img-fluid">
+                            <div class="container">
+                            <div class="promo-inner mt-2 d-flex flex-column">
+                                <!-- <div class="inner-up">promo prices</div> -->
+                                <!-- <div class="inner-down">new collection</div> -->
+
+                                <div class="inner-up">woman</div>
+                                <div id="inner-down" class="d-flex">
+                                    <a href="index.html" class="inner-down-link nav-link">home</a>
+                                    /
+                                    <a href="PROJECT_2_CATEGORIES.css" class="inner-down-link nav-link">categories</a>
+                                    /
+                                    <a href="PROJECT_2_CONTACT.html" class="inner-down-link nav-link">contact</a>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item" id="carousel">
+                        <div class="promo-img">
+                            <div class="container">
+                            <div class="promo-inner mt-2 d-flex flex-column">
+                                <!-- <div class="inner-up">promo prices</div> -->
+                                <!-- <div class="inner-down">new collection</div> -->
+
+                                <div class="inner-up">woman</div>
+                                <div id="inner-down" class="d-flex">
+                                    <a href="index.html" class="inner-down-link nav-link">home</a>
+                                    /
+                                    <a href="PROJECT_2_CATEGORIES.css" class="inner-down-link nav-link">categories</a>
+                                    /
+                                    <a href="PROJECT_2_CONTACT.html" class="inner-down-link nav-link">contact</a>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="carousel-control-next" data-bs-target="#promo-1" data-bs-slide="next" id="carousel-next-btn">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+
+
+        <!-- PRODUCT SECTION -->
+        <div class="product my-5">
+            <div class="container py-2">
+                <div class="row" id="row-1">
+                    <div class="col-md-6 p-3">
+                        <div class="categories">
+                            <div class="list-container">
+                                <div class="list-header">categories</div>
+                                <div class="list-content">
+                                    <ul class="list-group w-100 rounded-0">
+                                        <li class="list-group-item"><a href="#" class="nav-link" id="list-link">wedding dresses (23)</a></li>
+                                        <li class="list-group-item"><a href="#" class="nav-link" id="list-link">swimsuits (11)</a></li>
+                                        <li class="list-group-item"><a href="#" class="nav-link" id="list-link">jeans (61)</a></li>
+                                        <li class="list-group-item"><a href="#" class="nav-link" id="list-link">top (34)</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 p-3">
+                        <div class="color">
+                            <div class="list-container" id="color-container">
+                                <div class="list-header">color</div>
+                                <div class="list-content" id="color-content">
+                                    <ul class="list-group w-100 rounded-0" id="color-product">
+                                        <li class="list-group-item"><a href="#" class="nav-link" id="list-link"><span style="background:#a3ccff" id="color-product-selector"></span> Blue (23)</a></li>
+                                        <li class="list-group-item"><a href="#" class="nav-link" id="list-link"><span style="background:#937c6f" id="color-product-selector"></span> Brown (11)</a></li>
+                                        <li class="list-group-item"><a href="#" class="nav-link" id="list-link"><span style="background:#000000" id="color-product-selector"></span>Black (61)</a></li>
+                                        <li class="list-group-item"><a href="#" class="nav-link" id="list-link"><span style="background:#ff5c00" id="color-product-selector"></span>Orange (34)</a></li>
+                                        <li class="list-group-item"><a href="#" class="nav-link" id="list-link"><span style="background:#a3ffb2" id="color-product-selector"></span>Green (17)</a></li>
+                                        <li class="list-group-item"><a href="#" class="nav-link" id="list-link"><span style="background:#f52832" id="color-product-selector"></span>Red (22)</a></li>
+                                        <li class="list-group-item"><a href="#" class="nav-link" id="list-link"><span style="background:#ecf863" id="color-product-selector"></span>Yellow (13)</a></li>
+                                        <li class="list-group-item"><a href="#" class="nav-link" id="list-link"><span style="background:#f52832" id="color-product-selector"></span>Red (22)</a></li>
+                                        <li class="list-group-item"><a href="#" class="nav-link" id="list-link"><span style="background:#fdabf4" id="color-product-selector"></span>Pink (7)</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 p-3">
+                        <div class="size">
+                            <div class="list-container">
+                                <div class="list-header">size</div>
+                                <div class="list-content">
+                                    <ul class="list-group w-100 rounded-0">
+                                        <li class="list-group-item"><a href="#" class="nav-link" id="list-link">small s (23)</a></li>
+                                        <li class="list-group-item"><a href="#" class="nav-link" id="list-link">medium m (11)</a></li>
+                                        <li class="list-group-item"><a href="#" class="nav-link" id="list-link">large l (61)</a></li>
+                                        <li class="list-group-item"><a href="#" class="nav-link" id="list-link">extra large XL (34)</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 p-3">
+                        <div class="price">
+                            <div class="list-container">
+                                <div class="list-header">price</div>
+                                <div class="list-content">
+                                    <form action="" class="price-form py-2 px-3">
+                                        <input type="range" name="range" id="price-range-1" class="form-range">
+                                        <input type="text" name="text" id="price-form-text" class="form-control border-0 rounded-0" placeholder="$20 - $199">
+                                    </form>
+
+                                    <div class="btn rounded-0 m-2 ms-3" id="price-btn">clear price</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 p-3">
+                        <div class="best">
+                            <div class="list-container">
+                                <div class="list-header">best sellers</div>
+                                <div class="list-content">
+                                    <ul class="list-group w-100 rounded-0">
+                                        <li class="list-group-item border-0 mt-2">
+                                            <div class="best-info d-flex justify-content-between">
+                                                <div class="best-info-text d-flex">
+                                                    <img src="./images/best_1.jpg" alt="best img" class="img-fluid" id="best-text-img">
+                                                    <div class="best-text-price ms-3 mt-2">
+                                                        <p>Blue dress with dots</p>
+                                                        <span id="sellers-price">$45</span>
+                                                    </div>
+                                                </div>
+                                                <div class="btn text-center rounded-0" id="best-info-btn">+</div>
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item border-0 my-2">
+                                            <div class="best-info d-flex justify-content-between">
+                                                <div class="best-info-text d-flex">
+                                                    <img src="./images/best_2.jpg" alt="best img" class="img-fluid" id="best-text-img">
+                                                    <div class="best-text-price ms-3 mt-2">
+                                                        <p>White t-shirt</p>
+                                                        <span id="sellers-price">$45</span>
+                                                    </div>
+                                                </div>
+                                                <div class="btn text-center rounded-0" id="best-info-btn">+</div>
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item border-0 mb-2">
+                                            <div class="best-info d-flex justify-content-between">
+                                                <div class="best-info-text d-flex">
+                                                    <img src="./images/best_3.jpg" alt="best img" class="img-fluid" id="best-text-img">
+                                                    <div class="best-text-price ms-3 mt-2">
+                                                        <p>Blue dress with dots</p>
+                                                        <span id="sellers-price">$45</span>
+                                                    </div>
+                                                </div>
+                                                 <div class="btn text-center rounded-0" id="best-info-btn">+</div>
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item border-0">
+                                            <div class="best-info d-flex justify-content-between">
+                                                <div class="best-info-text d-flex">
+                                                    <img src="./images/best_4.jpg" alt="best img" class="img-fluid" id="best-text-img">
+                                                    <div class="best-text-price ms-3 mt-2">
+                                                        <p>White t-shirt</p>
+                                                        <span id="sellers-price">$45</span>
+                                                    </div>
+                                                </div>
+                                                <div class="btn text-center rounded-0" id="best-info-btn">+</div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 p-3">
+                        <div class="service">
+                            <div class="list-container">
+                                <div class="list-content">
+                                    <ul class="list-group w-100 rounded-0">
+                                        <li class="list-group-item">
+                                            <div class="service-info d-flex">
+                                                <img src="./images/option_1.png" alt="service image" class="service-info-img img-fluid">
+                                                <div class="service-info-text ms-3 mt-1">
+                                                    <div class="service-title">30 days returns</div>
+                                                    <p class="service-status">No questions asked</p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <div class="service-info d-flex">
+                                                <img src="./images/option_2.png" alt="service image" class="service-info-img img-fluid">
+                                                <div class="service-info-text ms-3 mt-1">
+                                                    <div class="service-title">free delivery</div>
+                                                    <p class="service-status">On all orders</p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <div class="service-info d-flex">
+                                                <img src="./images/option_3.png" alt="service image" class="service-info-img img-fluid">
+                                                <div class="service-info-text ms-3 mt-1">
+                                                    <div class="service-title">secure paymants</div>
+                                                    <p class="service-status">No need to worry</p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <div class="service-info d-flex">
+                                                <img src="./images/option_4.png" alt="service image" class="service-info-img img-fluid">
+                                                <div class="service-info-text ms-3 mt-1">
+                                                    <div class="service-title">24/7 supports</div>
+                                                    <p class="service-status">Just call us</p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- FASHION SECTION -->
+
+        <div class="fashion">
+            <div class="container">
+                <div class="fashion-text my-5">
+                    <div class="row" id="row-2">
+                        <div class="col-12">
+                            <div class="fashion-header">
+                                <p>women's fashion</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- fashion img -->
+
+                        <div class="row" id="row-3">
+                            <div class="col-md-8" id="fashion-icon">
+                                <div class="fashion-icons d-flex">
+                                    <div class="btn rounded-0" id="fashion-icons-1"><i class="fa fa-th-large" aria-hidden="true"></i></div>
+                                    <div class="btn rounded-0" id="fashion-icons-2"><i class="fa fa-bars" aria-hidden="true"></i></div>
+                                </div>
+                            </div>
+                            <!-- fashion-select -->
+                            <div class="col-md-4" id="fashion-select">
+                                <div class="row  mt-2">
+                                <div class="col-md-6">
+                                    <div class="hero-select mb-2" id="hero-select-2">
+                                        <!-- <select name="select" id="drop">
+                                            <option value="" id="drop-item">show all</option>
+                                            <option value="" id="drop-item">price</option>
+                                            <option value="" id="drop-item">stars</option>
+                                        </select> -->
+
+                                        <div class="dropbottom ">
+                                            <button class="btn w-100 text-start rounded-0 dropdown-toggle" id="drop-toggle-btn" data-bs-toggle="dropdown">Show All</button>
+
+                                            <ul class="dropdown dropdown-menu">
+                                                <li class="dropdown-item">Show All</li>
+                                                <li class="dropdown-item">Price</li>
+                                                <li class="dropdown-item">Stars</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="hero-select" id="hero-select-2">
+                                        <div class="dropbottom">
+                                            <button class="btn w-100 text-start rounded-0 dropdown-toggle" id="drop-toggle-btn" data-bs-toggle="dropdown">Show All</button>
+
+                                            <ul class="dropdown dropdown-menu">
+                                                <li class="dropdown-item">Show All</li>
+                                                <li class="dropdown-item">Price</li>
+                                                <li class="dropdown-item">Stars</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Hero section For Fashion -->
+        <div class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="row" id="row-4">
+
+                        <div class="col-md-4 p-3">
+                            <div class="card shadow-lg rounded-0">
+                                <img src="./images/product_1.jpg" alt="fine girl" class="img-fluid card-img-top rounded-0">
+
+                                <div class="card-footer">
+                                    <div class="arrival-text d-flex flex-column">
+                                    <div class="rating mt-2">
+                                        <i class="fa fa-star"></i>
+                                        <!-- <i class="fa fa-star"></i> -->
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+
+                                    <div class="arrival-text-info d-flex justify-content-between text-center">
+                                        <div class="arrival-text-info-link">
+                                            <p id="arrival-text-info-link-1"><a href="#" class="nav-link">man blue jacket</a></p>
+                                            <p id="arrival-text-info-link-2">$145.00</p>
+                                        </div>
+                                        <div class="arrival-text-info-img d-flex justify-content-between">
+                                            <img src="./images/shopping-bag-white.svg" alt="shop">
+                                            <p class="arrival-text-info-img-add">+</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-4 p-3">
+                            <div class="card shadow-lg rounded-0">
+                                <img src="./images/product_2.jpg" alt="fine girl" class="img-fluid card-img-top rounded-0">
+
+                                <div class="card-footer">
+                                    <div class="arrival-text d-flex flex-column">
+                                    <div class="rating mt-2">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <!-- <i class="fa fa-star"></i> -->
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+
+                                    <div class="arrival-text-info d-flex justify-content-between text-center">
+                                        <div class="arrival-text-info-link">
+                                            <p id="arrival-text-info-link-1"><a href="#" class="nav-link">man blue jacket</a></p>
+                                            <p id="arrival-text-info-link-2">$35.00</p>
+                                        </div>
+                                        <div class="arrival-text-info-img d-flex justify-content-between">
+                                            <img src="./images/shopping-bag-white.svg" alt="shop">
+                                            <p class="arrival-text-info-img-add">+</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-4 p-3">
+                            <div class="card shadow-lg rounded-0">
+                                <img src="./images/product_3.jpg" alt="fine girl" class="img-fluid card-img-top rounded-0">
+
+                                <div class="card-footer">
+                                    <div class="arrival-text d-flex flex-column">
+                                    <div class="rating mt-2">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+
+                                    <div class="arrival-text-info d-flex justify-content-between text-center">
+                                        <div class="arrival-text-info-link">
+                                            <p id="arrival-text-info-link-1"><a href="#" class="nav-link">man blue jacket</a></p>
+                                            <p id="arrival-text-info-link-2">$205.00</p>
+                                        </div>
+                                        <div class="arrival-text-info-img d-flex justify-content-between">
+                                            <img src="./images/shopping-bag-white.svg" alt="shop">
+                                            <p class="arrival-text-info-img-add">+</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 p-3">
+                            <div class="card shadow-lg rounded-0">
+                                <img src="./images/product_12.jpg" alt="fine girl" class="img-fluid card-img-top rounded-0">
+
+                                <div class="card-footer">
+                                    <div class="arrival-text d-flex flex-column">
+                                    <div class="rating mt-2">
+                                        <!-- <i class="fa fa-star"></i> -->
+                                        <!-- <i class="fa fa-star"></i> -->
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+
+                                    <div class="arrival-text-info d-flex justify-content-between text-center">
+                                        <div class="arrival-text-info-link">
+                                            <p id="arrival-text-info-link-1"><a href="#" class="nav-link">man blue jacket</a></p>
+                                            <p id="arrival-text-info-link-2">$5.00</p>
+                                        </div>
+                                        <div class="arrival-text-info-img d-flex justify-content-between">
+                                            <img src="./images/shopping-bag-white.svg" alt="shop">
+                                            <p class="arrival-text-info-img-add">+</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="col-md-4 p-3">
+                            <div class="card shadow-lg rounded-0">
+                                <img src="./images/product_5.jpg" alt="fine girl" class="img-fluid card-img-top rounded-0">
+
+                                <div class="card-footer">
+                                    <div class="arrival-text d-flex flex-column">
+                                    <div class="rating mt-2">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+
+                                    <div class="arrival-text-info d-flex justify-content-between text-center">
+                                        <div class="arrival-text-info-link">
+                                            <p id="arrival-text-info-link-1"><a href="#" class="nav-link">man blue jacket</a></p>
+                                            <p id="arrival-text-info-link-2">$300.00</p>
+                                        </div>
+                                        <div class="arrival-text-info-img d-flex justify-content-between">
+                                            <img src="./images/shopping-bag-white.svg" alt="shop">
+                                            <p class="arrival-text-info-img-add">+</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-4 p-3">
+                            <div class="card shadow-lg rounded-0">
+                                <img src="./images/product_6.jpg" alt="fine girl" class="img-fluid card-img-top rounded-0">
+
+                                <div class="card-footer">
+                                    <div class="arrival-text d-flex flex-column">
+                                    <div class="rating mt-2">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <!-- <i class="fa fa-star"></i> -->
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+
+                                    <div class="arrival-text-info d-flex justify-content-between text-center">
+                                        <div class="arrival-text-info-link">
+                                            <p id="arrival-text-info-link-1"><a href="#" class="nav-link">man blue jacket</a></p>
+                                            <p id="arrival-text-info-link-2">$88.00</p>
+                                        </div>
+                                        <div class="arrival-text-info-img d-flex justify-content-between">
+                                            <img src="./images/shopping-bag-white.svg" alt="shop">
+                                            <p class="arrival-text-info-img-add">+</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-4 p-3">
+                            <div class="card shadow-lg rounded-0">
+                                <img src="./images/product_7.jpg" alt="fine girl" class="img-fluid card-img-top rounded-0">
+
+                                <div class="card-footer">
+                                    <div class="arrival-text d-flex flex-column">
+                                    <div class="rating mt-2">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <!-- <i class="fa fa-star"></i> -->
+                                        <i class="fa fa-star"></i>
+                                    </div>
+
+                                    <div class="arrival-text-info d-flex justify-content-between text-center">
+                                        <div class="arrival-text-info-link">
+                                            <p id="arrival-text-info-link-1"><a href="#" class="nav-link">man blue jacket</a></p>
+                                            <p id="arrival-text-info-link-2">$14.00</p>
+                                        </div>
+                                        <div class="arrival-text-info-img d-flex justify-content-between">
+                                            <img src="./images/shopping-bag-white.svg" alt="shop">
+                                            <p class="arrival-text-info-img-add">+</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-4 p-3">
+                            <div class="card shadow-lg rounded-0">
+                                <img src="./images/product_8.jpg" alt="fine girl" class="img-fluid card-img-top rounded-0">
+
+                                <div class="card-footer">
+                                    <div class="arrival-text d-flex flex-column">
+                                    <div class="rating mt-2">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+
+                                    <div class="arrival-text-info d-flex justify-content-between text-center">
+                                        <div class="arrival-text-info-link">
+                                            <p id="arrival-text-info-link-1"><a href="#" class="nav-link">man blue jacket</a></p>
+                                            <p id="arrival-text-info-link-2">$9.00</p>
+                                        </div>
+                                        <div class="arrival-text-info-img d-flex justify-content-between">
+                                            <img src="./images/shopping-bag-white.svg" alt="shop">
+                                            <p class="arrival-text-info-img-add">+</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="col-md-4 p-3">
+                            <div class="card shadow-lg rounded-0">
+                                <img src="./images/product_9.jpg" alt="fine girl" class="img-fluid card-img-top rounded-0">
+
+                                <div class="card-footer">
+                                    <div class="arrival-text d-flex flex-column">
+                                    <div class="rating mt-2">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+
+                                    <div class="arrival-text-info d-flex justify-content-between text-center">
+                                        <div class="arrival-text-info-link">
+                                            <p id="arrival-text-info-link-1"><a href="#" class="nav-link">man blue jacket</a></p>
+                                            <p id="arrival-text-info-link-2">$295.00</p>
+                                        </div>
+                                        <div class="arrival-text-info-img d-flex justify-content-between">
+                                            <img src="./images/shopping-bag-white.svg" alt="shop">
+                                            <p class="arrival-text-info-img-add">+</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="col-md-4 p-3">
+                            <div class="card shadow-lg rounded-0">
+                                <img src="./images/product_10.jpg" alt="fine girl" class="img-fluid card-img-top rounded-0">
+
+                                <div class="card-footer">
+                                    <div class="arrival-text d-flex flex-column">
+                                    <div class="rating mt-2">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <!-- <i class="fa fa-star"></i> -->
+                                        <!-- <i class="fa fa-star"></i> -->
+                                        <i class="fa fa-star"></i>
+                                    </div>
+
+                                    <div class="arrival-text-info d-flex justify-content-between text-center">
+                                        <div class="arrival-text-info-link">
+                                            <p id="arrival-text-info-link-1"><a href="#" class="nav-link">man blue jacket</a></p>
+                                            <p id="arrival-text-info-link-2">$505.00</p>
+                                        </div>
+                                        <div class="arrival-text-info-img d-flex justify-content-between">
+                                            <img src="./images/shopping-bag-white.svg" alt="shop">
+                                            <p class="arrival-text-info-img-add">+</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-4 p-3">
+                            <div class="card shadow-lg rounded-0">
+                                <img src="./images/product_11.jpg" alt="fine girl" class="img-fluid card-img-top rounded-0">
+
+                                <div class="card-footer">
+                                    <div class="arrival-text d-flex flex-column">
+                                    <div class="rating mt-2">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <!-- <i class="fa fa-star"></i> -->
+                                        <i class="fa fa-star"></i>
+                                    </div>
+
+                                    <div class="arrival-text-info d-flex justify-content-between text-center">
+                                        <div class="arrival-text-info-link">
+                                            <p id="arrival-text-info-link-1"><a href="#" class="nav-link">man blue jacket</a></p>
+                                            <p id="arrival-text-info-link-2">$22.00</p>
+                                        </div>
+                                        <div class="arrival-text-info-img d-flex justify-content-between">
+                                            <img src="./images/shopping-bag-white.svg" alt="shop">
+                                            <p class="arrival-text-info-img-add">+</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-4 p-3">
+                            <div class="card shadow-lg rounded-0">
+                                <img src="./images/product_12.jpg" alt="fine girl" class="img-fluid card-img-top rounded-0">
+
+                                <div class="card-footer">
+                                    <div class="arrival-text d-flex flex-column">
+                                    <div class="rating mt-2">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <!-- <i class="fa fa-star"></i> -->
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+
+                                    <div class="arrival-text-info d-flex justify-content-between text-center">
+                                        <div class="arrival-text-info-link">
+                                            <p id="arrival-text-info-link-1"><a href="#" class="nav-link">man blue jacket</a></p>
+                                            <p id="arrival-text-info-link-2">$15.00</p>
+                                        </div>
+                                        <div class="arrival-text-info-img d-flex justify-content-between">
+                                            <img src="./images/shopping-bag-white.svg" alt="shop">
+                                            <p class="arrival-text-info-img-add">+</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- HERO-2 SECTION -->
+        <div class="hero-2">
+            <div class="container">
+                <div class="hero-2-info">
+                    <div class="row">
+                        
+                        <div class="col-md-6 pe-3">
+                            <div class="hero-content-1 shadow" id="hero-1-content">
+                                <div class="hero-inner" id="hero-1-inner">
+                                    <div class="hero-1-inner-percent">
+                                        <p id="hero-percent-1">30%</p>
+                                        <p id="hero-percent-text">off</p>
+                                    </div>
+                                    <div class="hero-1-inner-title">
+                                        <p>On all shoes</p>
+                                    </div>
+                                    <!-- <div class="hero-1-inner-text">
+                                        *Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias?
+                                        consectetur adipisicing elit.
+                                    </div> -->
+                                    <a href="#" class="nav-link" id="hero-1-inner-btn">
+                                        check out
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 ps-3">
+                            <div class="hero-content-1 shadow" id="hero-2-content">
+                                <div class="hero-inner" id="hero-1-inner">
+                                    <div class="hero-1-inner-percent">
+                                        <p id="hero-percent-1">30%</p>
+                                        <p id="hero-percent-text">off</p>
+                                    </div>
+                                    <div class="hero-1-inner-title">
+                                        <p>On all shoes</p>
+                                    </div>
+                                    <!-- <div class="hero-1-inner-text">
+                                        *Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias?
+                                        consectetur adipisicing elit.
+                                    </div> -->
+                                    <a href="#" class="nav-link" id="hero-1-inner-btn">
+                                        check out
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- News-subscribe : this was copied from the homepage -->
+        <div class="container-fluid" id="contain-2">
+            <!-- the backgroung image is in (.news) -->
+            <div class="news text-center">
+                <div class="news-inner text-center">
+                    <div class="row" id="row-10">
+                        <div class="news-text">
+                            <div class="news-text-subtitle">only the best</div>
+                            <div class="news-text-title">subscribe for a 20% discount</div>
+                        </div>
+                    </div>
+
+                    <div class="row" id="row-11">
+                        <div class="news-form-text">
+                            <form action="" class="form d-flex" id="news-form">
+                                <input type="email" name="email" id="news-form-search" class="rounded-0 fst-italic" placeholder="Enter email">
+                                <button class="btn border-0 rounded-0" type="submit" id="news-form-btn">subscribe</button>
+                            </form>
+
+                            <div class="news-text-info fst-italic text-light">
+                                Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit. Dolorem illum sed voluptas reiciendis amet sequi, sit rem voluptatum est eve
+                                niet quidem velit facere tempore! Deleniti at veniam dolores officia. Cumque!
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+
+
+         <!-- Footer section : this was copied from the homepage -->
+          <div class="footer text-center">
+            <div class="container-fluid" id="contain-3">
+                <div class="footer-content">
+                    <div class="row" id="row-12">
+                        <div class="col my-3" id="footer-title">wish</div>
+                    </div>
+
+                    <div class="row" id="row-13">
+                        <div class="col">
+                            <ul class="nav justify-content-center">
+                                <li class="nav-item"><a href="index.html" class="nav-link" id="footer-link">HOME</a></li>
+                                <li class="nav-item"><a href="PROJECT_2_CATEGORIES.html" class="nav-link" id="footer-link">CLOTHES</a></li>
+                                <li class="nav-item"><a href="PROJECT_2_CHECKOUT.html" class="nav-link" id="footer-link">ACCESSORIES</a></li>
+                                <li class="nav-item"><a href="PROJECT_2_PRODUCT.html" class="nav-link" id="footer-link">LINGERIE</a></li>
+                                <li class="nav-item"><a href="PROJECT_2_CONTACT.html" class="nav-link" id="footer-link">CONTACT</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="row" id="row-14">
+                        <div class="col">
+                            <ul class="nav justify-content-center" id="foot-img">
+                                <li class="nav-item"><a href="#" class="nav-link"  id="footer-img-link"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+                                <li class="nav-item"><a href="#" class="nav-link"  id="footer-img-link"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                <li class="nav-item"><a href="#" class="nav-link"  id="footer-img-link"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                <li class="nav-item"><a href="#" class="nav-link"  id="footer-img-link"><i class="fa fa-reddit-alien" aria-hidden="true"></i></a></li>
+                                <li class="nav-item"><a href="#" class="nav-link"  id="footer-img-link"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <div class="footer-info">
+                                <p>Copyright &copy; <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://google.com/" target="_blank">Chiagozie</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+
+          <!-- This project wws made by Eneasato Chiagozie. it is a copyright of the template at " themewagon.github.io/wish/index.html " -->
+
+
+
+    </div>
+    
+</body>
+</html>

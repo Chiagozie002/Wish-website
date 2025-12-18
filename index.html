@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WISH HOME</title>
+    <link rel="stylesheet" href="./PROJECT_2_HOMEPAGE.css">
+     <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="./bootstrap/boottrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+
+    <!-- Offcanvas Section -->
+     <div class="offcanvas offcanvas-end" id="offcanvas">
+        <div class="offcanvas-header shadow">
+            <div class="offcanvas-title fs-2">Wish</div>
+            <button class="btn-close" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body mt-4">
+            <form action="" class="d-flex shadow" id="Search-input">
+                <input type="text" class="border-0" placeholder="Type here">
+                <button class="btn" type="submit"><img src="./images/magnifying-glass.svg" alt="search"></button>
+            </form>
+
+            <ul class="nav d-flex flex-column mt-5 text-end">
+                <li class="nav-item"><a href="index.html" class="nav-link" id="nav-links">HOME</a></li>
+                    <li class="nav-item"><a href="PROJECT_2_CATEGORIES.html" class="nav-link" id="nav-links">CLOTHES</a></li>
+                    <li class="nav-item"><a href="PROJECT_2_CHECKOUT.html" class="nav-link" id="nav-links">ACCESSORIES</a></li>
+                    <li class="nav-item"><a href="PROJECT_2_PRODUCT.html" class="nav-link" id="nav-links">LINGERIE</a></li>
+                    <li class="nav-item"><a href="PROJECT_2_CONTACT.html" class="nav-link" id="nav-links">CONTACT</a></li>
+            </ul>
+        </div>
+     </div>
+    
+    <div class="family-container">
+        <!-- NAVBAR SECTION -->
+        <nav class="navbar navbar-expand-sm navbar-light" id="nav">
+            <div class="navbar-brand">
+                <a href="#" class="nav-link" id="brand-name">Wish</a>
+            </div>
+
+            <div class="d-flex justify-content-between" id="contain">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a href="index.html" class="nav-link" id="nav-link">HOME</a></li>
+                    <li class="nav-item"><a href="PROJECT_2_CATEGORIES.html" class="nav-link" id="nav-link">CLOTHES</a></li>
+                    <li class="nav-item"><a href="PROJECT_2_CHECKOUT.html" class="nav-link" id="nav-link">ACCESSORIES</a></li>
+                    <li class="nav-item"><a href="PROJECT_2_PRODUCT.html" class="nav-link" id="nav-link">LINGERIE</a></li>
+                    <li class="nav-item"><a href="PROJECT_2_CONTACT.html" class="nav-link" id="nav-link">CONTACT</a></li>
+                </ul>
+
+                <div class="pane">
+
+                    <div class="nav-img">
+                        <div class="nav-img-1 d-flex">
+                            <!-- Bag -->
+                             <a href="#" class="nav-link">
+                                <div class="nav-img-link d-flex flex-column">
+                                    <img src="./images/shopping-bag.svg" alt="bag">
+                                    <div class="badge rounded-circle" id="badge">1</div>
+                                </div>
+                             </a>
+
+                             <!--Star -->
+                             <a href="#" class="nav-link">
+                                <div class="nav-img-link  d-flex flex-column">
+                                    <img src="./images/star.svg" alt="bag">
+                                    <div class="badge rounded-circle" id="badge">0</div>
+                                </div>
+                             </a>
+                        </div>
+
+                        <div class="nav-img-2">
+                            <!-- Avatar -->
+                             <a href="#" class="nav-link">
+                                <div class="nav-img-link">
+                                    <img src="./images/avatar.svg" alt="avatar" style="margin-left: 5px;">
+                                </div>
+                             </a>
+                        </div>
+                    </div>
+
+                    <div class="nav-menu">
+                        <!-- <img src="./images/contact_info_2.png" alt="" data-bs-toggle="offcanvas" data-bs-target="#offcanvas"> -->
+                        <i class="fa fa-bars" data-bs-target="#offcanvas" data-bs-toggle="offcanvas"></i>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+
+         <!-- Body section -->
+
+         <!-- PROMO (carousel area) -->
+          <div class="promo-1 mb-5">
+            <div class="carousel slide" id="promo-1" data-bs-ride="carousel">
+
+                <div class="carousel-indicators">
+                <button type="button" data-bs-target="#promo-1" data-bs-slide-to="0" class="active" id="carousel-control-btn"></button>
+                <button type="button" data-bs-target="#promo-1" data-bs-slide-to="1" id="carousel-control-btn"></button>
+                <button type="button" data-bs-target="#promo-1" data-bs-slide-to="2" id="carousel-control-btn"></button>
+                </div>
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active" id="carousel">
+                        <div class="promo-img img-fluid">
+                            <div class="promo-inner mt-5  d-flex flex-column">
+                                <div class="inner-up">promo prices</div>
+                                <div class="inner-down">new collection</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item" id="carousel">
+                        <div class="promo-img img-fluid">
+                            <div class="promo-inner mt-5 d-flex flex-column">
+                                <div class="inner-up">promo prices</div>
+                                <div class="inner-down">new collection</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item" id="carousel">
+                        <div class="promo-img img-fluid">
+                            <div class="promo-inner mt-5 d-flex flex-column">
+                                <div class="inner-up">promo prices</div>
+                                <div class="inner-down">new collection</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="carousel-control-next" data-bs-target="#promo-1" data-bs-slide="next" id="carousel-next-btn">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+          </div>
+
+
+        <!-- PROMO (row and column area) -->
+        <!-- promo title -->
+        <div class="container mb-5" id="promo-2-title">
+            <div class="row text-center" id="row-1">
+                <div class="col my-4 d-flex flex-column">
+                    <div class="promo-subtitle">only the best</div>
+                    <div class="promo-title">promo prices</div>
+                </div>
+            </div>
+
+            <!-- Promo item section -->
+            <div class="row mt-5" id="row-2">
+                
+                <div class="col-md-4 p-3">
+                    <div class="shadow-lg"> 
+                    <div class="promo-item-img" id="promo-col-1"><!-- this is the container for the image. see the styling in the css-->
+                        <div class="promo-item-img-text" id="promo-item-img-text-1">
+                            <div class="promo-item-title">-30% 0ff</div>
+                            <div class="promo-item-subtitle fw-bold">ON ALL BAGS</div>
+                        </div>
+                    </div>
+
+                    <div class="promo-item-text"><a href="#" class="nav-link">shop now</a></div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 p-3">
+                    <div class="shadow-lg">
+                    <div class="promo-item-img" id="promo-col-2"><!-- the container for the image. see the styling in the css-->
+                        <div class="promo-item-img-text" id="promo-item-img-text-2">
+                            <div class="promo-item-title">-30% 0ff</div>
+                            <div class="promo-item-subtitle fw-bold">COATS & JACKETS</div>
+                        </div>
+                    </div>
+
+                    <div class="promo-item-text"><a href="#" class="nav-link">shop now</a></div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 p-3">
+                    <div class="shadow-lg">
+                    <div class="promo-item-img"id="promo-col-3"><!-- the container for the image. see the styling in the css-->
+                        <div class="promo-item-img-text"  id="promo-item-img-text-3">
+                            <div class="promo-item-title">-25% 0ff</div>
+                            <div class="promo-item-subtitle fst-italic">on Sandals</div>
+                        </div>
+                    </div>
+
+                    <div class="promo-item-text"><a href="#" class="nav-link">shop now</a></div>
+                    </div>
+                </div>
+
+            </div>
+          </div>
+
+
+
+          <!-- New Arrivals Section -->
+        <div class="arrivals py-4" style="gap: 10px;">
+            <div class="container">
+                <div class="row text-center" id="row-3">
+                    <div class="col my-5 d-flex flex-column">
+                        <div class="Arrivals-subtitle">only the best</div>
+                        <div class="Arrivals-title">new arrivals</div>
+                    </div>
+                </div>
+
+                <div class="row" id="row-4">
+                    <div class="col-lg-4 p-3">
+                        <div class="card shadow-lg rounded-0">
+                            <img src="./images/product_1.jpg" alt="fine girl" class="img-fluid card-img-top rounded-0">
+
+                            <div class="card-footer">
+                                <div class="arrival-text d-flex flex-column">
+                                    <div class="rating mt-2">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+
+                                    <div class="arrival-text-info d-flex justify-content-between text-center">
+                                        <div class="arrival-text-info-link">
+                                            <p id="arrival-text-info-link-1"><a href="#" class="nav-link">man blue jacket</a></p>
+                                            <p id="arrival-text-info-link-2">$145.00</p>
+                                        </div>
+                                        <div class="arrival-text-info-img d-flex justify-content-between">
+                                            <img src="./images/shopping-bag-white.svg" alt="shop">
+                                            <p class="arrival-text-info-img-add">+</p>
+                                        </div>
+                                    </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 p-3">
+                        <div class="card shadow-lg rounded-0">
+                            <img src="./images/product_2.jpg" alt="fine girl" class="img-fluid card-img-top rounded-0">
+
+                            <div class="card-footer">
+                                <div class="arrival-text d-flex flex-column">
+                                <div class="rating mt-2">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+
+                                <div class="arrival-text-info d-flex justify-content-between text-center">
+                                    <div class="arrival-text-info-link">
+                                        <p id="arrival-text-info-link-1"><a href="#" class="nav-link">man blue jacket</a></p>
+                                        <p id="arrival-text-info-link-2">$145.00</p>
+                                    </div>
+                                    <div class="arrival-text-info-img d-flex justify-content-between">
+                                        <img src="./images/shopping-bag-white.svg" alt="shop">
+                                        <p class="arrival-text-info-img-add">+</p>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 p-3">
+                        <div class="card shadow-lg rounded-0">
+                            <img src="./images/product_3.jpg" alt="fine girl" class="img-fluid card-img-top rounded-0">
+
+                            <div class="card-footer">
+                                <div class="arrival-text d-flex flex-column">
+                                <div class="rating mt-2">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+
+                                <div class="arrival-text-info d-flex justify-content-between text-center">
+                                    <div class="arrival-text-info-link">
+                                        <p id="arrival-text-info-link-1"><a href="#" class="nav-link">man blue jacket</a></p>
+                                        <p id="arrival-text-info-link-2">$145.00</p>
+                                    </div>
+                                    <div class="arrival-text-info-img d-flex justify-content-between">
+                                        <img src="./images/shopping-bag-white.svg" alt="shop">
+                                        <p class="arrival-text-info-img-add">+</p>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- testing area -->
+                    
+                </div>
+            </div>
+        </div>
+
+        <!-- Hero-1 Section -->
+        <div class="hero-1 my-5 py-4">
+            <div class="container">
+                <div class="row" id="row-5">
+                    <div class="col-lg-6">
+                        <div class="hero-content shadow" id="hero-1-content">
+                            <div class="hero-inner" id="hero-1-inner">
+                                <div class="hero-1-inner-percent">
+                                    <p id="hero-percent-1">30%</p>
+                                    <p id="hero-percent-text">off</p>
+                                </div>
+                                <div class="hero-1-inner-title">
+                                    <p>On all shoes</p>
+                                </div>
+                                <div class="hero-1-inner-text">
+                                    *Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias?
+                                    consectetur adipisicing elit.
+                                </div>
+                                <a href="#" class="nav-link" id="hero-1-inner-btn">
+                                    check out
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="hero-content shadow" id="hero-2-content">
+                            <div class="hero-inner" id="hero-2-inner">
+                                <div class="hero-2-inner-percent  d-flex flex-column align-items-center justify-content-center text-center" style="margin: 0 auto;" >
+                                    <p id="hero-percent-text-1" class="fst-italic">&</p>
+                                    <p id="hero-percent-2" class="">mix</p>
+                                    <p id="hero-percent-3" class="">match</p>
+                                </div>
+                                <!-- <div class="hero-2-inner-title">
+                                    <p>On all shoes</p>
+                                </div> -->
+                                <div class="hero-1-inner-text">
+                                    *Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias?
+                                    consectetur adipisicing elit.
+                                </div>
+                                <a href="#" class="nav-link" id="hero-1-inner-btn">
+                                    check out
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Hero section-2 -->
+        <div class="hero-2 my-4">
+            <div class="container-fluid">
+                <div class="row" id="row-6">
+                    <div class="col d-flex flex-column my-2 py-4">
+                        <ul class="hero-2-link text-sm-center">
+                        <a href="#" class="nav-link fs-1" id="hero-2-links">#wish</a>
+                        <a href="#" class="nav-link fs-1" id="hero-2-links">#wishinstagram</a>
+                        <a href="#" class="nav-link fs-1" id="hero-2-links">#wishgirl</a>
+                        </ul>
+                        <div class="hero-2-text my-4">
+                            *Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias?
+                            consectetur adipisicing elit.
+                        </div>
+                        <a href="#" class="nav-link" id="hero-2-btn">submit</a>
+                    </div>
+                </div>
+                <div class="row" id="row-7">
+                    <div class="col">
+                        <div class="container">
+                            <marquee behavior="scroll" direction="left" scrollamount="10">
+                                <img src="./images/gallery_1.jpg" alt="img-1" class="hero-2-img img-fluid">
+                                <img src="./images/gallery_2.jpg" alt="img-2" class="hero-2-img img-fluid">
+                                <img src="./images/gallery_3.jpg" alt="img-3" class="hero-2-img img-fluid">
+                                <img src="./images/gallery_4.jpg" alt="img-4" class="hero-2-img img-fluid">
+                                <img src="./images/gallery_5.jpg" alt="img-5" class="hero-2-img img-fluid">
+                                <img src="./images/gallery_6.jpg" alt="img-6" class="hero-2-img img-fluid">
+                            </marquee>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- TESTIMONIALS -->
+
+        <div class="testimonial text-center my-5 py-4 px-4">
+            <div class="container">
+                <div class="row" id="row-8">
+                    <div class="test-text-subtitle">only the best</div>
+                    <div class="test-text-title">testimonials</div>
+                </div>
+
+                <!-- Test- Slider -->
+                <div class="row" id="row-9">
+                    <div class="test-slider">
+                        <div class="carousel slide" id="text-slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active px-5 py-4" id="carousel-2">
+                                    <div class="test-item">
+                                        <div class="test-item-text">Lorem ipsum dolor sit amet consectetur 
+                                            adipisicing elit. Voluptatibus n
+                                            obis sequi et? Culpa facere praesentium quos incidunt 
+                                            obis sequi et? Culpa facere praesentium
+                                            dolorum excepturi! A.</div>
+                                        <div class="test-item-profile mt-5 mb-3">
+                                            <img src="./images/review_1.jpg" class="text-item-profile-img rounded-circle img-fluid"></img>
+                                            <div class="text-item-profile-text">
+                                                <div class="test-item-profile-title mt-4 fw-bold">Christine joyce</div>
+                                                <div class="test-item-profile-subtitle mt-1">client</div>
+                                            </div>
+                                        </div>
+                           
+                                    </div>
+                                </div>
+
+
+                                <div class="carousel-item px-5 py-4" id="carousel-2">
+                                    <div class="test-item">
+                                        <div class="test-item-text">Lorem ipsum dolor sit amet consectetur 
+                                            adipisicing elit. Voluptatibus n
+                                            obis sequi et? Culpa facere praesentium quos incidunt 
+                                            obis sequi et? Culpa facere praesentium 
+                                            dolorum excepturi! A.</div>
+                                        <div class="test-item-profile mt-5 mb-3">
+                                            <img src="./images/review_2.jpg" class="text-item-profile-img rounded-circle img-fluid"></img>
+                                            <div class="text-item-profile-text">
+                                                <div class="test-item-profile-title mt-4 fw-bold">coco jones</div>
+                                                <div class="test-item-profile-subtitle mt-1">client</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- News-subscribe -->
+        <div class="container-fluid" id="contain-2">
+            <!-- the backgroung image is in (.news) -->
+            <div class="news text-center">
+                <div class="news-inner text-center">
+                    <div class="row" id="row-10">
+                        <div class="news-text">
+                            <div class="news-text-subtitle">only the best</div>
+                            <div class="news-text-title">subscribe for a 20% discount</div>
+                        </div>
+                    </div>
+
+                    <div class="row" id="row-11">
+                        <div class="news-form-text">
+                            <form action="" class="form d-flex" id="news-form">
+                                <input type="email" name="email" id="news-form-search" class="rounded-0 fst-italic" placeholder="Enter email">
+                                <button class="btn border-0 rounded-0" type="submit" id="news-form-btn">subscribe</button>
+                            </form>
+
+                            <div class="news-text-info fst-italic text-light">
+                                Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit. Dolorem illum sed voluptas reiciendis amet sequi, sit rem voluptatum est eve
+                                niet quidem velit facere tempore! Deleniti at veniam dolores officia. Cumque!
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+
+
+        <!-- Footer section -->
+          <div class="footer text-center">
+            <div class="container-fluid" id="contain-3">
+                <div class="footer-content">
+                    <div class="row" id="row-12">
+                        <div class="col my-3" id="footer-title">wish</div>
+                    </div>
+
+                    <div class="row" id="row-13">
+                        <div class="col">
+                            <ul class="nav justify-content-center">
+                                <li class="nav-item"><a href="index.html" class="nav-link" id="footer-link">HOME</a></li>
+                                <li class="nav-item"><a href="PROJECT_2_CATEGORIES.html" class="nav-link" id="footer-link">CLOTHES</a></li>
+                                <li class="nav-item"><a href="PROJECT_2_CHECKOUT.html" class="nav-link" id="footer-link">ACCESSORIES</a></li>
+                                <li class="nav-item"><a href="PROJECT_2_PRODUCT.html" class="nav-link" id="footer-link">LINGERIE</a></li>
+                                <li class="nav-item"><a href="PROJECT_2_CONTACT.html" class="nav-link" id="footer-link">CONTACT</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="row" id="row-14">
+                        <div class="col">
+                            <ul class="nav justify-content-center" id="foot-img">
+                                <li class="nav-item"><a href="#" class="nav-link"  id="footer-img-link"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+                                <li class="nav-item"><a href="#" class="nav-link"  id="footer-img-link"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                <li class="nav-item"><a href="#" class="nav-link"  id="footer-img-link"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                <li class="nav-item"><a href="#" class="nav-link"  id="footer-img-link"><i class="fa fa-reddit-alien" aria-hidden="true"></i></a></li>
+                                <li class="nav-item"><a href="#" class="nav-link"  id="footer-img-link"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <div class="footer-info">
+                                <p>Copyright &copy; <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://google.com/" target="_blank">Chiagozie</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+
+          <!-- This project wws made by Eneasato Chiagozie. it is a copyright of the template at " themewagon.github.io/wish/index.html " -->
+
+    </div>
+
+</body>
+</html>
